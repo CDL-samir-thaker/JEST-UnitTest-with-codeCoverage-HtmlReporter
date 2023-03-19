@@ -13,12 +13,14 @@
     "jest-html-reporters": "^3.0.11"
   },
   "jest": {
+    "collectCoverage":true,
     "reporters": [
       "default",
       ["jest-html-reporters", {
         "publicPath": "./html-report",
         "filename": "report.html",
-        "openReport": true
+        "openReport": true,
+        "inlineSource":true
       }]
     ]
   }
