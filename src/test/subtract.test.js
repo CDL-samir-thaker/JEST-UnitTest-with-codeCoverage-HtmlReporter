@@ -1,4 +1,4 @@
-const sub = require('../../subtract');
+const sub = require('../calculatorApp/subtract');
 
 test('subtract 2 - 1 to equal 1', () => {
   expect(sub(2, 1)).toBe(1);
