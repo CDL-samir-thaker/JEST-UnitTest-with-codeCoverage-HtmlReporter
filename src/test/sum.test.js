@@ -5,5 +5,5 @@ test('adds 1 + 2 to equal 3', () => {
 });
 // fail the below test to check the report
 test('adds 1 + 5 to equal 6', () => {
-  expect(sum(1, 5)).toBe(6);
+  expect(sum(1, 5)).toBe(5);
 });
